@@ -16,14 +16,14 @@ class AddCheckItem: UIViewController {
     
     @IBAction private func addCheckItemToVC(_ sender: Any) {
         //checkItemTextFieldに文字が入力されてるか
-        if checkItemTextField.text != "" {
-            checkItem = (text:checkItemTextField.text!, keyCheck:false)
-            performSegue(withIdentifier: "addItem", sender: nil)
-        } else {
+        if checkItemTextField.text 　== "" {
             let alertController  = UIAlertController(title: "エラー", message: "1文字以上の文字を入力してください", preferredStyle: .alert)
             let cancelAction     = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             alertController.addAction(cancelAction)
             present(alertController, animated: true, completion: nil)
+        } else {
+            checkItem = (text:checkItemTextField.text!, keyCheck:false)
+            performSegue(withIdentifier: "addItem", sender: nil)
         }
     }
     

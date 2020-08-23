@@ -16,27 +16,27 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lxa-zm-oTS">
-                        <rect key="frame" x="16" y="5" width="35" height="35"/>
-                        <constraints>
-                            <constraint firstAttribute="width" secondItem="Lxa-zm-oTS" secondAttribute="height" multiplier="1:1" id="Yub-bm-6G4"/>
-                        </constraints>
-                    </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3w-xt-Yyd">
-                        <rect key="frame" x="59" y="5" width="245" height="35"/>
+                        <rect key="frame" x="62" y="5" width="242" height="35"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lxa-zm-oTS">
+                        <rect key="frame" x="16" y="5" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Lxa-zm-oTS" secondAttribute="height" multiplier="1:1" id="mgF-8b-GId"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="g3w-xt-Yyd" firstAttribute="leading" secondItem="Lxa-zm-oTS" secondAttribute="trailing" constant="8" id="8RK-qb-bte"/>
-                    <constraint firstAttribute="bottom" secondItem="Lxa-zm-oTS" secondAttribute="bottom" constant="4" id="BpW-IC-btx"/>
-                    <constraint firstItem="g3w-xt-Yyd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="FD9-3z-axD"/>
-                    <constraint firstAttribute="bottom" secondItem="g3w-xt-Yyd" secondAttribute="bottom" constant="4" id="JU3-ZI-0v5"/>
-                    <constraint firstAttribute="trailing" secondItem="g3w-xt-Yyd" secondAttribute="trailing" constant="16" id="Ueu-WQ-ed0"/>
-                    <constraint firstItem="Lxa-zm-oTS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="dT1-WE-aog"/>
-                    <constraint firstItem="Lxa-zm-oTS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="sE3-st-5Md"/>
+                    <constraint firstAttribute="trailing" secondItem="g3w-xt-Yyd" secondAttribute="trailing" constant="16" id="5WC-YR-uVU"/>
+                    <constraint firstAttribute="bottom" secondItem="Lxa-zm-oTS" secondAttribute="bottom" constant="4" id="MbB-Fi-Zta"/>
+                    <constraint firstItem="Lxa-zm-oTS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="N5n-ij-RVj"/>
+                    <constraint firstItem="g3w-xt-Yyd" firstAttribute="leading" secondItem="Lxa-zm-oTS" secondAttribute="trailing" constant="11" id="kES-LR-Wtk"/>
+                    <constraint firstItem="Lxa-zm-oTS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="q85-sy-bcx"/>
+                    <constraint firstItem="g3w-xt-Yyd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="ucX-sa-o1w"/>
+                    <constraint firstAttribute="bottom" secondItem="g3w-xt-Yyd" secondAttribute="bottom" constant="4" id="wY0-cD-Uqq"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
